@@ -9,7 +9,7 @@ namespace FWServiceWin7
     {
         public Settings() { }
         [XmlElement("SMTPServerFrom", typeof(string))]
-        public string smtpServerFrom = "report@baltbet.ru";
+        public string smtpServerFrom = "";
 
         [XmlElement("SMTPServerPort", typeof(int))]
         public int smtpServerPort = 25;
@@ -33,10 +33,10 @@ namespace FWServiceWin7
         public string smtpServerPassword = "";
 
         [XmlElement("SMTPServerTo1", typeof(string))]
-        public string smtpServerTo1 = "report@baltbet.ru";
+        public string smtpServerTo1 = "";
 
         [XmlElement("SMTPServerTo2", typeof(string))]
-        public string smtpServerTo2 = "report@baltbet.ru";
+        public string smtpServerTo2 = "";
 
 
 
